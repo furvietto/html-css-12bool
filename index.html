@@ -10,6 +10,8 @@
 </head>
 <body>
     <div class="container-fluid">
+
+        <h1>Esercizio per casa</h1>
         <!-- prima riga -->
         <div class="row">
             <div class="col-1">1 col</div>
@@ -70,7 +72,8 @@
             </div>
         </div>
 
-        <!-- seconda row  -->
+        <!-- seconda colonna  -->
+
 
         <!-- prima riga -->
         <div class="row">
@@ -90,12 +93,150 @@
         </div>
 
         <!-- quarta riga -->
-        <div class="row"></div>
-        <div class="row"></div>
-        <div class="row"></div>
-        <div class="row"></div>
-        <div class="row"></div>
-        <div class="row"></div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-9"></div>
+        </div>
+
+        <!-- quinta riga -->
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-8"></div>
+        </div>
+
+        <!-- sesta riga -->
+        <div class="row">
+            <div class="col-5"></div>
+            <div class="col-7"></div>
+        </div>
+
+        <!-- settima riga -->
+        <div class="row mar-bot-40">
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+        </div>
+
+        <!-- Offset -->
+        <h2>OFFSET</h2>
+
+        <div class="row">
+            <div class="col-1 col-11-offset">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-10-offset">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 col-9-offset">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 col-8-offset">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-5 col-7-offset">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-6-offset">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7 col-5-offset">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8 col-4-offset">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-9 col-3-offset">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 col-2-offset">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-11 col-1-offset">
+            </div>
+        </div>
+
+        <h2>Nested</h2>
+        <div class="row">
+            <div class="col-7">
+                <div class="row padding">
+                    <div class="col-2 nested"></div>
+                    <div class="col-8 nested"></div>
+                    <div class="col-2 nested"></div>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="row padding">
+                    <div class="col-6 nested"></div>
+                    <div class="col-6 nested"></div>
+                </div>
+            </div>
+        </div>
+
+        <h2>Alignment</h2>
+        <div class="row flex-l">
+            <div class="col-6">
+                left
+            </div>
+        </div>
+
+        <div class="row flex-m">
+            <div class="col-6 flex-m">
+                center
+            </div>
+        </div>
+
+        <div class="row flex-r">
+            <div class="col-6 flex-m">
+                right
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 h-100"></div>
+            <div class="col-6 h-50">top</div>           
+        </div>
+
+        <div class="row">
+            <div class="col-6 h-100"></div>
+            <div class="col-6 h-50 align-c">middle</div>           
+        </div>
+
+        <div class="row">
+            <div class="col-6 h-100"></div>
+            <div class="col-6 h-50 align-end">bottom</div>           
+        </div>
+
+        <h2>Justify-content</h2>
+        <h3>space-around</h3>
+
+        <div class="row ">
+            <div class="col-12">
+                <div class="row flex-space padding">
+                    <div class="col-3 nested"></div>
+                    <div class="col-3 nested"></div>
+                    <div class="col-3 nested"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-12">
+                <div class="row flex-between padding">
+                    <div class="col-3 nested"></div>
+                    <div class="col-3 nested"></div>
+                    <div class="col-3 nested"></div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
