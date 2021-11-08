@@ -4,17 +4,25 @@
     box-sizing: border-box;
 }
 
+[class *="col"] {
+    border: 1px solid white;
+    min-height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
 .row {
     background-color: cornflowerblue;
 }
 
-[class *="col"] {
-    border: 1px solid white;
-    height: 40px;
+.padding {
+    padding: 20px;
 }
 
-.col-1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.nested {
+    background-color: chartreuse;
+}
+
+.mar-bot-40 {
+    margin-bottom: 40px;
 }
