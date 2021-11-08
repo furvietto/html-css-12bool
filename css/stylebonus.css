@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+[class *="col"] {
+    min-height: 70px;
+    background-color: black;
+}
+
+
+
+/* colori */
+
+.bc-white {
+    background-color: white;
+}
+
+.bc-pink{
+    background-color: pink;
+}
+
+.bc-orange {
+    background-color: orange;
+}
+
+.bc-pinkdark {
+    background-color: palevioletred;
+}
